@@ -4,7 +4,7 @@ import "bootstrap/dist/js/bootstrap.min.js";
 import NavBar from "./NavBar";
 import HeroText from "./HeroText";
 import HeroImg from "./HeroImg";
-// import Item from "./Item";
+import Footer from "./Footer";
 import Cards from "./Cards";
 import CARDS_LIST from "./CardsDetails";
 
@@ -31,6 +31,9 @@ function App() {
       </div>
       <div className="row py-5">
         {CardsList}
+      </div>
+      <div className="row mt-5">
+        <Footer />
       </div>
     </div>
   );

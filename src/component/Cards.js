@@ -1,8 +1,7 @@
 import React from "react";
-import CARDS_LIST from "./CardsDetails";
 
 function Cards(props) {
-  const { title, paragraph, imgUrl } = CARDS_LIST;
+  const { title, paragraph, imgUrl } = props.item;
 
   return (
     <div className="card">
